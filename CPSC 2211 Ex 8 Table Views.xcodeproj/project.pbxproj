@@ -1,0 +1,573 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		53721B722047A33D00C649C2 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53721B712047A33D00C649C2 /* CustomTableViewCell.swift */; };
+		53DC219A203F7C4E00B13C6B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53DC2199203F7C4E00B13C6B /* AppDelegate.swift */; };
+		53DC219C203F7C4E00B13C6B /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53DC219B203F7C4E00B13C6B /* MasterViewController.swift */; };
+		53DC219E203F7C4E00B13C6B /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53DC219D203F7C4E00B13C6B /* DetailViewController.swift */; };
+		53DC21A1203F7C4E00B13C6B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53DC219F203F7C4E00B13C6B /* Main.storyboard */; };
+		53DC21A3203F7C4E00B13C6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53DC21A2203F7C4E00B13C6B /* Assets.xcassets */; };
+		53DC21A6203F7C4E00B13C6B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53DC21A4203F7C4E00B13C6B /* LaunchScreen.storyboard */; };
+		53DC21B1203F7C4E00B13C6B /* CPSC_2211_Ex_8_Table_ViewsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53DC21B0203F7C4E00B13C6B /* CPSC_2211_Ex_8_Table_ViewsTests.swift */; };
+		53DC21BC203F7C4E00B13C6B /* CPSC_2211_Ex_8_Table_ViewsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53DC21BB203F7C4E00B13C6B /* CPSC_2211_Ex_8_Table_ViewsUITests.swift */; };
+		53DC21CA203F7C9A00B13C6B /* Dwarf.plist in Resources */ = {isa = PBXBuildFile; fileRef = 53DC21C9203F7C9A00B13C6B /* Dwarf.plist */; };
+		53DC21CC203F849900B13C6B /* Dwarf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53DC21CB203F849900B13C6B /* Dwarf.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		53DC21AD203F7C4E00B13C6B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 53DC218E203F7C4E00B13C6B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 53DC2195203F7C4E00B13C6B;
+			remoteInfo = "CPSC 2211 Ex 8 Table Views";
+		};
+		53DC21B8203F7C4E00B13C6B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 53DC218E203F7C4E00B13C6B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 53DC2195203F7C4E00B13C6B;
+			remoteInfo = "CPSC 2211 Ex 8 Table Views";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		53721B712047A33D00C649C2 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		53DC2196203F7C4E00B13C6B /* CPSC 2211 Ex 8 Table Views.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CPSC 2211 Ex 8 Table Views.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		53DC2199203F7C4E00B13C6B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		53DC219B203F7C4E00B13C6B /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		53DC219D203F7C4E00B13C6B /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		53DC21A0203F7C4E00B13C6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		53DC21A2203F7C4E00B13C6B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		53DC21A5203F7C4E00B13C6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		53DC21A7203F7C4E00B13C6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53DC21AC203F7C4E00B13C6B /* CPSC 2211 Ex 8 Table ViewsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CPSC 2211 Ex 8 Table ViewsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		53DC21B0203F7C4E00B13C6B /* CPSC_2211_Ex_8_Table_ViewsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CPSC_2211_Ex_8_Table_ViewsTests.swift; sourceTree = "<group>"; };
+		53DC21B2203F7C4E00B13C6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53DC21B7203F7C4E00B13C6B /* CPSC 2211 Ex 8 Table ViewsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CPSC 2211 Ex 8 Table ViewsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		53DC21BB203F7C4E00B13C6B /* CPSC_2211_Ex_8_Table_ViewsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CPSC_2211_Ex_8_Table_ViewsUITests.swift; sourceTree = "<group>"; };
+		53DC21BD203F7C4E00B13C6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53DC21C9203F7C9A00B13C6B /* Dwarf.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Dwarf.plist; sourceTree = "<group>"; };
+		53DC21CB203F849900B13C6B /* Dwarf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dwarf.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		53DC2193203F7C4E00B13C6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53DC21A9203F7C4E00B13C6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53DC21B4203F7C4E00B13C6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		53DC218D203F7C4E00B13C6B = {
+			isa = PBXGroup;
+			children = (
+				53DC2198203F7C4E00B13C6B /* CPSC 2211 Ex 8 Table Views */,
+				53DC21AF203F7C4E00B13C6B /* CPSC 2211 Ex 8 Table ViewsTests */,
+				53DC21BA203F7C4E00B13C6B /* CPSC 2211 Ex 8 Table ViewsUITests */,
+				53DC2197203F7C4E00B13C6B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		53DC2197203F7C4E00B13C6B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				53DC2196203F7C4E00B13C6B /* CPSC 2211 Ex 8 Table Views.app */,
+				53DC21AC203F7C4E00B13C6B /* CPSC 2211 Ex 8 Table ViewsTests.xctest */,
+				53DC21B7203F7C4E00B13C6B /* CPSC 2211 Ex 8 Table ViewsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		53DC2198203F7C4E00B13C6B /* CPSC 2211 Ex 8 Table Views */ = {
+			isa = PBXGroup;
+			children = (
+				53DC2199203F7C4E00B13C6B /* AppDelegate.swift */,
+				53DC219B203F7C4E00B13C6B /* MasterViewController.swift */,
+				53721B712047A33D00C649C2 /* CustomTableViewCell.swift */,
+				53DC219D203F7C4E00B13C6B /* DetailViewController.swift */,
+				53DC219F203F7C4E00B13C6B /* Main.storyboard */,
+				53DC21CB203F849900B13C6B /* Dwarf.swift */,
+				53DC21C9203F7C9A00B13C6B /* Dwarf.plist */,
+				53DC21A2203F7C4E00B13C6B /* Assets.xcassets */,
+				53DC21A4203F7C4E00B13C6B /* LaunchScreen.storyboard */,
+				53DC21A7203F7C4E00B13C6B /* Info.plist */,
+			);
+			path = "CPSC 2211 Ex 8 Table Views";
+			sourceTree = "<group>";
+		};
+		53DC21AF203F7C4E00B13C6B /* CPSC 2211 Ex 8 Table ViewsTests */ = {
+			isa = PBXGroup;
+			children = (
+				53DC21B0203F7C4E00B13C6B /* CPSC_2211_Ex_8_Table_ViewsTests.swift */,
+				53DC21B2203F7C4E00B13C6B /* Info.plist */,
+			);
+			path = "CPSC 2211 Ex 8 Table ViewsTests";
+			sourceTree = "<group>";
+		};
+		53DC21BA203F7C4E00B13C6B /* CPSC 2211 Ex 8 Table ViewsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				53DC21BB203F7C4E00B13C6B /* CPSC_2211_Ex_8_Table_ViewsUITests.swift */,
+				53DC21BD203F7C4E00B13C6B /* Info.plist */,
+			);
+			path = "CPSC 2211 Ex 8 Table ViewsUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		53DC2195203F7C4E00B13C6B /* CPSC 2211 Ex 8 Table Views */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53DC21C0203F7C4E00B13C6B /* Build configuration list for PBXNativeTarget "CPSC 2211 Ex 8 Table Views" */;
+			buildPhases = (
+				53DC2192203F7C4E00B13C6B /* Sources */,
+				53DC2193203F7C4E00B13C6B /* Frameworks */,
+				53DC2194203F7C4E00B13C6B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CPSC 2211 Ex 8 Table Views";
+			productName = "CPSC 2211 Ex 8 Table Views";
+			productReference = 53DC2196203F7C4E00B13C6B /* CPSC 2211 Ex 8 Table Views.app */;
+			productType = "com.apple.product-type.application";
+		};
+		53DC21AB203F7C4E00B13C6B /* CPSC 2211 Ex 8 Table ViewsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53DC21C3203F7C4E00B13C6B /* Build configuration list for PBXNativeTarget "CPSC 2211 Ex 8 Table ViewsTests" */;
+			buildPhases = (
+				53DC21A8203F7C4E00B13C6B /* Sources */,
+				53DC21A9203F7C4E00B13C6B /* Frameworks */,
+				53DC21AA203F7C4E00B13C6B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				53DC21AE203F7C4E00B13C6B /* PBXTargetDependency */,
+			);
+			name = "CPSC 2211 Ex 8 Table ViewsTests";
+			productName = "CPSC 2211 Ex 8 Table ViewsTests";
+			productReference = 53DC21AC203F7C4E00B13C6B /* CPSC 2211 Ex 8 Table ViewsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		53DC21B6203F7C4E00B13C6B /* CPSC 2211 Ex 8 Table ViewsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53DC21C6203F7C4E00B13C6B /* Build configuration list for PBXNativeTarget "CPSC 2211 Ex 8 Table ViewsUITests" */;
+			buildPhases = (
+				53DC21B3203F7C4E00B13C6B /* Sources */,
+				53DC21B4203F7C4E00B13C6B /* Frameworks */,
+				53DC21B5203F7C4E00B13C6B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				53DC21B9203F7C4E00B13C6B /* PBXTargetDependency */,
+			);
+			name = "CPSC 2211 Ex 8 Table ViewsUITests";
+			productName = "CPSC 2211 Ex 8 Table ViewsUITests";
+			productReference = 53DC21B7203F7C4E00B13C6B /* CPSC 2211 Ex 8 Table ViewsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		53DC218E203F7C4E00B13C6B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "James Young";
+				TargetAttributes = {
+					53DC2195203F7C4E00B13C6B = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					53DC21AB203F7C4E00B13C6B = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 53DC2195203F7C4E00B13C6B;
+					};
+					53DC21B6203F7C4E00B13C6B = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 53DC2195203F7C4E00B13C6B;
+					};
+				};
+			};
+			buildConfigurationList = 53DC2191203F7C4E00B13C6B /* Build configuration list for PBXProject "CPSC 2211 Ex 8 Table Views" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 53DC218D203F7C4E00B13C6B;
+			productRefGroup = 53DC2197203F7C4E00B13C6B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				53DC2195203F7C4E00B13C6B /* CPSC 2211 Ex 8 Table Views */,
+				53DC21AB203F7C4E00B13C6B /* CPSC 2211 Ex 8 Table ViewsTests */,
+				53DC21B6203F7C4E00B13C6B /* CPSC 2211 Ex 8 Table ViewsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		53DC2194203F7C4E00B13C6B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53DC21A6203F7C4E00B13C6B /* LaunchScreen.storyboard in Resources */,
+				53DC21CA203F7C9A00B13C6B /* Dwarf.plist in Resources */,
+				53DC21A3203F7C4E00B13C6B /* Assets.xcassets in Resources */,
+				53DC21A1203F7C4E00B13C6B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53DC21AA203F7C4E00B13C6B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53DC21B5203F7C4E00B13C6B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		53DC2192203F7C4E00B13C6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53DC219E203F7C4E00B13C6B /* DetailViewController.swift in Sources */,
+				53721B722047A33D00C649C2 /* CustomTableViewCell.swift in Sources */,
+				53DC219C203F7C4E00B13C6B /* MasterViewController.swift in Sources */,
+				53DC21CC203F849900B13C6B /* Dwarf.swift in Sources */,
+				53DC219A203F7C4E00B13C6B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53DC21A8203F7C4E00B13C6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53DC21B1203F7C4E00B13C6B /* CPSC_2211_Ex_8_Table_ViewsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53DC21B3203F7C4E00B13C6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53DC21BC203F7C4E00B13C6B /* CPSC_2211_Ex_8_Table_ViewsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		53DC21AE203F7C4E00B13C6B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 53DC2195203F7C4E00B13C6B /* CPSC 2211 Ex 8 Table Views */;
+			targetProxy = 53DC21AD203F7C4E00B13C6B /* PBXContainerItemProxy */;
+		};
+		53DC21B9203F7C4E00B13C6B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 53DC2195203F7C4E00B13C6B /* CPSC 2211 Ex 8 Table Views */;
+			targetProxy = 53DC21B8203F7C4E00B13C6B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		53DC219F203F7C4E00B13C6B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53DC21A0203F7C4E00B13C6B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		53DC21A4203F7C4E00B13C6B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53DC21A5203F7C4E00B13C6B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		53DC21BE203F7C4E00B13C6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		53DC21BF203F7C4E00B13C6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		53DC21C1203F7C4E00B13C6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "CPSC 2211 Ex 8 Table Views/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "James-Young.CPSC-2211-Ex-8-Table-Views";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		53DC21C2203F7C4E00B13C6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "CPSC 2211 Ex 8 Table Views/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "James-Young.CPSC-2211-Ex-8-Table-Views";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		53DC21C4203F7C4E00B13C6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "CPSC 2211 Ex 8 Table ViewsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "James-Young.CPSC-2211-Ex-8-Table-ViewsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CPSC 2211 Ex 8 Table Views.app/CPSC 2211 Ex 8 Table Views";
+			};
+			name = Debug;
+		};
+		53DC21C5203F7C4E00B13C6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "CPSC 2211 Ex 8 Table ViewsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "James-Young.CPSC-2211-Ex-8-Table-ViewsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CPSC 2211 Ex 8 Table Views.app/CPSC 2211 Ex 8 Table Views";
+			};
+			name = Release;
+		};
+		53DC21C7203F7C4E00B13C6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "CPSC 2211 Ex 8 Table ViewsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "James-Young.CPSC-2211-Ex-8-Table-ViewsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "CPSC 2211 Ex 8 Table Views";
+			};
+			name = Debug;
+		};
+		53DC21C8203F7C4E00B13C6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "CPSC 2211 Ex 8 Table ViewsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "James-Young.CPSC-2211-Ex-8-Table-ViewsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "CPSC 2211 Ex 8 Table Views";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		53DC2191203F7C4E00B13C6B /* Build configuration list for PBXProject "CPSC 2211 Ex 8 Table Views" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53DC21BE203F7C4E00B13C6B /* Debug */,
+				53DC21BF203F7C4E00B13C6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53DC21C0203F7C4E00B13C6B /* Build configuration list for PBXNativeTarget "CPSC 2211 Ex 8 Table Views" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53DC21C1203F7C4E00B13C6B /* Debug */,
+				53DC21C2203F7C4E00B13C6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53DC21C3203F7C4E00B13C6B /* Build configuration list for PBXNativeTarget "CPSC 2211 Ex 8 Table ViewsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53DC21C4203F7C4E00B13C6B /* Debug */,
+				53DC21C5203F7C4E00B13C6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53DC21C6203F7C4E00B13C6B /* Build configuration list for PBXNativeTarget "CPSC 2211 Ex 8 Table ViewsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53DC21C7203F7C4E00B13C6B /* Debug */,
+				53DC21C8203F7C4E00B13C6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 53DC218E203F7C4E00B13C6B /* Project object */;
+}
